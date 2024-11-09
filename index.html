@@ -3,27 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     /* إعدادات الانميشن */
-  .fade-in {
-    opacity: 0;
-    animation: fadeIn 4s forwards;
-  }
-  
-  @keyframes fadeIn {
-    to { opacity: 1; }
-  }
-</style>
-</head>
-<body>
-
-<div class="fade-in">
-  <h1>مرحبًا بكم في الموقع!</h1>
-</div>
     <title>موقع ملخصات الدروس والفروض</title>
-    <style>  
-       body {
-    background: linear-gradient(to right, #720d26, #2e0241);
-}
+    <style>
+        /* إعدادات الانميشن */
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 4s forwards;
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+
+        body {
+            background: linear-gradient(to right, #720d26, #2e0241);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
         .header {
             background-color: #333;
@@ -37,12 +34,14 @@
             padding: 10px;
             text-align: center;
         }
+
         .navbar a {
             color: white;
             padding: 14px 20px;
             text-decoration: none;
             display: inline-block;
         }
+
         .navbar a:hover {
             background-color: #575757;
         }
@@ -51,12 +50,23 @@
             text-align: center;
             margin-top: 20px;
         }
+
         .content h2 {
             color: #26a50c;
         }
+
         .material {
             margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
+
+        .material h3 {
+            color: #333;
+        }
+
         .material a {
             display: inline-block;
             padding: 10px 20px;
@@ -65,17 +75,24 @@
             border-radius: 5px;
             text-decoration: none;
             margin: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .material a:hover {
+            background-color: #575757;
         }
 
         .login-btn {
-background-color: #288f00; /* اللون الخاص بحساب إنستغرام */
+            background-color: #288f00; /* اللون الخاص بحساب إنستغرام */
             color: rgb(11, 3, 136);
             border-radius: 5px;
             padding: 10px 20px;
             text-decoration: none;
             display: inline-block;
             font-size: 24px;
+            transition: background-color 0.3s;
         }
+
         .login-btn:hover {
             background-color: #303f88;
         }
@@ -168,5 +185,57 @@ background-color: #288f00; /* اللون الخاص بحساب إنستغرام 
         <a href="https://www.mediafire.com/file/yourfilelink/science_summary.pdf/file" target="_blank">تحميل ملخص العلوم</a>
         <h4>الفروض</h4>
         <a href="https://www.mediafire.com/file/yourfilelink/science_assignment1.pdf/file" target="_blank">تحميل فرض العلوم 1</a>
-        <a href="https://www.mediafire.com/file/yourfilelink
-    <!-- مادة تربية الاسلامية -->
+        <a href="https://www.mediafire.com/file/yourfilelink/science_assignment2.pdf/file" target="_blank">تحميل فرض العلوم 2</a>
+        <a href="https://www.mediafire.com/file/yourfilelink/science_assignment3.pdf/file" target="_blank">تحميل فرض العلوم 3</a>
+        <h4>الامتحانات</h4>
+        <a href="https://www.mediafire.com/file/yourfilelink/science_exam1.pdf/file" target="_blank">تحميل امتحان العلوم 1</a>
+        <a href="https://www.mediafire.com/file/yourfilelink/science_exam2.pdf/file" target="_blank">تحميل امتحان العلوم 2</a>
+        <a href="https://www.mediafire.com/file/yourfilelink/science_exam3.pdf/file" target="_blank">تحميل امتحان العلوم 3</a>
+    </div>
+
+    <!-- مادة التربية الإسلامية -->
+    <div class="material">
+        <h3>التربية الإسلامية</h3>
+        <a href="https://www.mediafire.com/file/yourfilelink/islamic_summary.pdf/file" target="_blank">تحميل ملخص التربية الإسلامية</a>
+        <h4>الفروض</h4>
+        <a href="https://www.mediafire.com/file/yourfilelink/islamic_assignment1.pdf/file" target="_blank">تحميل فرض التربية الإسلامية 1</a>
+        <a href="https://www.mediafire.com/file/yourfilelink/islamic_assignment2.pdf/file" target="_blank">تحميل فرض التربية الإسلامية 2</a>
+        <a href="https://www.mediafire.com/file/yourfilelink/islamic_assignment3.pdf/file" target="_blank">تحميل فرض التربية الإسلامية 3</a>
+        <h4>الامتحانات</h4>
+        <a href="https://www.mediafire.com/file/yourfilelink/islamic_exam1.pdf/file" target="_blank">تحميل امتحان التربية الإسلامية 1</a>
+        <a href="https://www.mediafire.com/file/yourfilelink/islamic_exam2.pdf/file" target="_blank">تحميل امتحان التربية الإسلامية 2</a>
+        <a href="https://www.mediafire.com/file/yourfilelink/islamic_exam3.pdf/file" target="_blank">تحميل امتحان التربية الإسلامية 3</a>
+    </div>
+
+    <!-- مادة تربية مدنية -->
+    <div class="material">
+        <h3>تربية مدنية</h3>
+        <a href="https://www.mediafire.com/file/yourfilelink/civic_summary.pdf/file" target="_blank">تحميل ملخص التربية المدنية</a>
+        <h4>الفروض</h4>
+        <a href="https://www.mediafire.com/file/yourfilelink/civic_assignment1.pdf/file" target="_blank">تحميل فرض التربية المدنية 1</a>
+        <a href="https://www.mediafire.com/file/yourfilelink/civic_assignment2.pdf/file" target="_blank">تحميل فرض التربية المدنية 2</a>
+        <a href="https://www.mediafire.com/file/yourfilelink/civic_assignment3.pdf/file" target="_blank">تحميل فرض التربية المدنية 3</a>
+        <h4>الامتحانات</h4>
+        <a href="https://www.mediafire.com/file/yourfilelink/civic_exam1.pdf/file" target="_blank">تحميل امتحان التربية المدنية 1</a>
+        <a href="https://www.mediafire.com/file/yourfilelink/civic_exam2.pdf/file" target="_blank">تحميل امتحان التربية المدنية 2</a>
+        <a href="https://www.mediafire.com/file/yourfilelink/civic_exam3.pdf/file" target="_blank">تحميل امتحان التربية المدنية 3</a>
+    </div>
+
+    <!-- مادة اللغة الإنجليزية -->
+    <div class="material">
+        <h3>اللغة الإنجليزية</h3>
+        <a href="https://www.mediafire.com/file/yourfilelink/english_summary.pdf/file" target="_blank">تحميل ملخص اللغة الإنجليزية</a>
+        <h4>الفروض</h4>
+        <a href="https://www.mediafire.com/file/yourfilelink/english_assignment1.pdf/file" target="_blank">تحميل فرض اللغة الإنجليزية 1</a>
+        <a href="https://www.mediafire.com/file/yourfilelink/english_assignment2.pdf/file" target="_blank">تحميل فرض اللغة الإنجليزية 2</a>
+        <a href="https://www.mediafire.com/file/yourfilelink/english_assignment3.pdf/file" target="_blank">تحميل فرض اللغة الإنجليزية 3</a>
+        <h4>الامتحانات</h4>
+        <a href="https://www.mediafire.com/file/yourfilelink/english_exam1.pdf/file" target="_blank">تحميل امتحان اللغة الإنجليزية 1</a>
+        <a href="https://www.mediafire.com/file/yourfilelink/english_exam2.pdf/file" target="_blank">تحميل امتحان اللغة الإنجليزية 2</a>
+        <a href="https://www.mediafire.com/file/yourfilelink/english_exam3.pdf/file" target="_blank">تحميل امتحان اللغة الإنجليزية 3</a>
+    </div>
+
+</div>
+
+</body>
+</html>
